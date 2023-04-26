@@ -11,6 +11,6 @@ void main (){
 	scanf("%s", nome);
 	printf("Informe seu Sobrenome: ") ;
 	scanf("%s", sobrenome);
-	printf("O nome eo sobrenome e: %s, %s", nome, sobrenome);
+	printf("O nome e o sobrenome e: %s %s", nome, sobrenome);
 	
 }
