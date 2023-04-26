@@ -4,7 +4,9 @@
 /*2 - Escreva um algoritmo que leia seu nome e após a leitura e exiba o nome lido..*/
 
 void main (){
-	char name ;
-	printf ("Ola Mundo! ") ;
-	system ("pause" );
+	char nome[100] ;
+	
+	printf("Informe seu Nome: ") ;
+	scanf("%s", nome);
+	printf("Nome informado: %s", nome);
 }
