@@ -14,6 +14,12 @@ void main (){
 		printf("O numero maior e: %d \n", n1 );	
 	}
 	else{
-		printf("O numero maior e: %d \n", n2 );			
+		if ( n1 == n2){
+			printf( "Os numeros sao iguais!!!" );	
+		}
+		else{
+			printf("O numero maior e: %d \n", n2 );	
+		}
+				
 	}
 }
